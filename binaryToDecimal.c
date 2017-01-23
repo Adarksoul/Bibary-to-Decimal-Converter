@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 int binaryToDecimal(char binaryString[]){
-	unsigned long currBasePower = 1, decimalConversion = 0;
+	unsigned int currBasePower = 1, decimalConversion = 0;
 	signed short stringSize = 0;
 
 	while(binaryString[stringSize] != '\0'){
