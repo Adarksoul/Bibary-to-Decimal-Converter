@@ -4,13 +4,13 @@
  *
  *  @author   Chad Manning
  *  Course:   COMP B13
- *  Created:   Jan ??, 2017                                   FIXME: date before turning in
+ *  Created:   Jan 22, 2017
  *  Source File: binaryToDecimal.c
  */
 
 #include <stdio.h>
 
-int binaryToDecimal(char binaryString[]){
+void binaryToDecimal(char binaryString[]){
 	unsigned int currBasePower = 1, decimalConversion = 0;
 	signed short stringSize = 0;
 
@@ -26,6 +26,9 @@ int binaryToDecimal(char binaryString[]){
 		currBasePower *= 2;
 		}
 
+		printf("%d\n", decimalConversion);
 
-	return decimalConversion;
+	return;
 	}
+
+
